@@ -1,0 +1,59 @@
+{
+    "levels": [
+        {
+            "id": 0,
+            "items": [
+                {"type": "destination", "x": 2, "y": 3, "family": "grey"},
+                {"type": "destination", "x": 3, "y": 4, "family": "red"},
+                {"type": "destination", "x": 5, "y": 3, "family": "blue"},
+                {"type": "arrow", "x": 2, "y": 2, "direction": "up"},
+                {"type": "arrow", "x": 5, "y": 2, "direction": "left"},
+                {"type": "arrow", "x": 2, "y": 4, "direction": "right"},
+                {"type": "arrow", "x": 5, "y": 4, "direction": "down"},
+                {"type": "start", "x": 4, "y": 1, "family": "red", "direction": "up"},
+                {"type": "start", "x": 1, "y": 3, "family": "grey", "direction": "right"},
+                {"type": "start", "x": 3, "y": 5, "family": "blue", "direction": "down"}
+            ]
+        },
+        {
+            "id": 1,
+            "items": [
+                {"type": "destination", "x": 4, "y": 1, "family": "green"},
+                {"type": "destination", "x": 3, "y": 2, "family": "blue"},
+                {"type": "destination", "x": 4, "y": 3, "family": "grey"},
+                {"type": "arrow", "x": 4, "y": 2, "direction": "up"},
+                {"type": "arrow", "x": 5, "y": 2, "direction": "left"},
+                {"type": "arrow", "x": 4, "y": 4, "direction": "down"},
+                {"type": "arrow", "x": 3, "y": 5, "direction": "right"},
+                {"type": "arrow", "x": 5, "y": 5, "direction": "down"},
+                {"type": "start", "x": 2, "y": 2, "family": "green", "direction": "right"},
+                {"type": "start", "x": 3, "y": 4, "family": "grey", "direction": "down"},
+                {"type": "start", "x": 6, "y": 5, "family": "blue", "direction": "left"}
+            ]
+        },
+        {
+            "id": 2,
+            "items": [
+                {"type": "destination", "x": 3, "y": 2, "family": "white"},
+                {"type": "destination", "x": 4, "y": 3, "family": "red"},
+                {"type": "destination", "x": 5, "y": 2, "family": "green"},
+                {"type": "arrow", "x": 2, "y": 1, "direction": "up"},
+                {"type": "arrow", "x": 1, "y": 2, "direction": "right"},
+                {"type": "arrow", "x": 2, "y": 3, "direction": "right"},
+                {"type": "arrow", "x": 4, "y": 4, "direction": "down"},
+                {"type": "start", "x": 3, "y": 1, "family": "white", "direction": "left"},
+                {"type": "start", "x": 4, "y": 2, "family": "red", "direction": "left"},
+                {"type": "start", "x": 5, "y": 1, "family": "green", "direction": "left"}
+            ]
+        },
+        {
+            "id": 3,
+            "items": [
+                {"type": "destination", "x": 3, "y": 2, "family": "white"},
+                {"type": "destination", "x": 4, "y": 3, "family": "red"},
+                {"type": "start", "x": 3, "y": 1, "family": "white", "direction": "up"},
+                {"type": "start", "x": 4, "y": 2, "family": "red", "direction": "up"}
+            ]
+        }
+    ]
+}
